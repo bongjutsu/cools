@@ -16,7 +16,7 @@ $red: #ff3500;
 $typography: 'MaisonNeue';
 
 html {
-    cursor: url('assets/images/pointer-square-black.png'), auto;
+    cursor: url('../assets/images/pointer-square-black.png'), auto;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
     bottom: -50%;
     width: 200%;
     height: 200vh;
-    background: transparent url("/assets/images/noise.png") repeat 0 0;
+    background: transparent url("../assets/images/noise.png") repeat 0 0;
     background-repeat: repeat;
     animation: bg-animation 0.9s infinite;
     opacity: .2;
@@ -269,7 +269,7 @@ nav a, p a {
 .home-gif {
     //margin-top: 16px!important;
     //margin-bottom: 4rem;
-    background-image: url(/assets/images/white-home-cover.png);
+    background-image: url("/assets/images/white-home-cover.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
